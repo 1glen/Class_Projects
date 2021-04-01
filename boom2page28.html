@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Child Selectors</title>
+<style>
+    body
+    {
+        background-color: rgb(255, 225, 58);
+    }
+    ul > li 
+    {
+        list-style: square;
+    }
+    ul > li ol
+    {
+        list-style: none;
+    }
+</style>
+</head>
+    <body> 
+        <center><h2>Child Selectors</h2></center>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Services</a>
+            <ol>
+            <li><a href="#">Design</a></li>
+            <li><a href="#">Development</a></li>
+            </ol>
+            </li>
+            <li><a href="#">Contact</a></li>
+            </ul>
+    </body>
+</html>

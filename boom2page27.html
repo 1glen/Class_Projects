@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Descendant Selectors</title>
+<style>
+    body
+    {
+        background-color: rgb(167, 245, 65);
+    }
+    h1 em
+    {
+        color: rgb(230, 5, 5); 
+    }
+    ul.menu 
+    {
+        padding: 0;
+        list-style: none;
+    }
+    ul.menu li
+    {
+        display: inline;
+    }
+    ul.menu li a 
+    {
+        margin: 10px;
+        text-decoration: none;
+    }
+</style>
+</head>
+    <body> 
+        <center><h2>Descendant Selectors</h2></center>
+        <center><h1>This is a <em>shakalaka boom boom</em></h1>
+            <ul class="menu">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Contact</a></li>
+            </ul>
+        </center>
+    </body>
+</html>
